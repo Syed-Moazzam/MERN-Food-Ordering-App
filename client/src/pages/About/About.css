@@ -1,0 +1,21 @@
+.hero-section-content-of-about-screen>div {
+    bottom: 20% !important;
+}
+
+.our-story-heading-of-about {
+    font-size: max(2vw, 24px);
+    color: #262626;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.content-of-about-screen {
+    margin-bottom: 110px;
+}
+
+.content-of-about-screen>p {
+    text-align: justify;
+    color: #808080;
+    font-size: 17px;
+    line-height: 26px;
+}
