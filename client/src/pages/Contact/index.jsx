@@ -46,7 +46,7 @@ const Contact = () => {
     return (
         <>
             <section className="hero-section-contact-screen">
-                <HeroSection image={assets?.header_img} mainHeading={'Contact us'} content={"We’re here to help you enjoy every meal with ease. Whether you have questions about placing an order, need assistance navigating our app, or simply want to share your feedback, our team is ready to assist. At Tomato, we believe that every dining experience should be delightful from start to finish. Your satisfaction is our priority, and we’re committed to addressing any concerns or inquiries you might have. Reach out to us by filling out the form below, and let us make your Tomato experience even more enjoyable. Bon appétit!"} isBtnVisible={false} className={'hero-section-content-of-contact-screen'} />
+                <HeroSection image={assets?.header_img} mainHeading={'Contact us'} content={"We’re here to help you enjoy every meal with ease. Whether you have questions about placing an order, need assistance navigating our app, or simply want to share your feedback, our team is ready to assist. At Tomato, we believe that every dining experience should be delightful from start to finish. Your satisfaction is our priority, and we’re committed to addressing any concerns or inquiries you might have. Reach out to us by filling out the form below, and let us make your Tomato experience even more enjoyable. Bon appétit!"} className={'hero-section-content-of-contact-screen'} />
             </section>
 
             <section className='container-of-contact-info-and-form'>

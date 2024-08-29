@@ -37,7 +37,9 @@
     margin: 40px 0px 0px;
 }
 
-@media(max-width:1000px) {
+
+/* media queries */
+@media(max-width: 1000px) {
     .order-item {
         font-size: 12px;
         grid-template-columns: 0.5fr 2fr 1fr;

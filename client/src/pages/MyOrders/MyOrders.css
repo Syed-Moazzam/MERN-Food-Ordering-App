@@ -50,7 +50,9 @@
     color: #454545;
 }
 
-@media (max-width:900px) {
+
+/* media queries */
+@media (max-width: 900px) {
     .my-orders-order {
         grid-template-columns: 1fr 2fr 1fr;
         row-gap: 5px;

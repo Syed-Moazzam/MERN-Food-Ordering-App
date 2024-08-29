@@ -62,7 +62,9 @@
     margin: 20px 0px;
 }
 
-@media (max-width:750px) {
+
+/* media queries */
+@media (max-width: 750px) {
     .footer-content {
         display: flex;
         flex-direction: column;

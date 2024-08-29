@@ -117,6 +117,8 @@
     margin: 140px 0px;
 }
 
+
+/* media queries */
 @media screen and (max-width: 750px) {
     .cart-bottom {
         flex-direction: column-reverse;

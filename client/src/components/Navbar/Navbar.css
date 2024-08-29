@@ -15,6 +15,7 @@
     cursor: pointer;
     width: 22px;
     height: 22px;
+    display: none;
 }
 
 .container-btn-of-hamburger-icon>img {
@@ -28,15 +29,32 @@
     color: tomato !important;
 }
 
+.ant-drawer-body {
+    padding: 24px 16px !important;
+}
+
 .container-div-of-drawer-links {
     display: flex;
     flex-direction: column;
+    gap: 5px;
+}
+
+.container-div-of-drawer-links>.active {
+    background-color: #E8E8E8;
 }
 
 .container-div-of-drawer-links>a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
     font-size: 16px;
-    padding: 10px 0px;
+    padding: 10px;
     color: black;
+    border-radius: 5px;
+}
+
+.container-div-of-drawer-links>a img {
+    width: 26px;
 }
 
 .navbar .logo {
@@ -62,17 +80,17 @@
     gap: 40px;
 }
 
-.navbar-search-icon {
+.navbar-cart-icon {
     position: relative;
 }
 
-.navbar-search-icon>img {
-    width: 32px;
+.navbar-cart-icon>img {
+    width: 30px;
     height: 100%;
     object-fit: contain;
 }
 
-.navbar-search-icon .dot {
+.navbar-cart-icon .dot {
     position: absolute;
     min-width: 10px;
     min-height: 10px;
@@ -102,7 +120,7 @@
 }
 
 .navbar-profile>img {
-    width: 25px;
+    width: 24px;
     height: 100%;
     object-fit: contain;
     cursor: pointer;
@@ -168,6 +186,10 @@
         width: 22px;
     }
 
+    .navbar-cart-icon>img {
+        width: 26px;
+    }
+
     .navbar-right button {
         padding: 8px 25px;
     }
@@ -191,6 +213,10 @@
         width: 20px;
     }
 
+    .navbar-cart-icon>img {
+        width: 25px;
+    }
+
     .navbar-right button {
         font-size: 15px;
         padding: 7px 20px;
@@ -198,7 +224,13 @@
 }
 
 @media screen and (max-width: 768px) {
-    .hidden {
+
+    .app-logo-of-navbar,
+    .navbar-menu {
         display: none;
+    }
+
+    .container-btn-of-hamburger-icon {
+        display: block;
     }
 }

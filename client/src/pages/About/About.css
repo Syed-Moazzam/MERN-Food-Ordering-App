@@ -19,3 +19,15 @@
     font-size: 17px;
     line-height: 26px;
 }
+
+
+/* media queries */
+@media screen and (max-width: 768px) {
+    .content-of-about-screen {
+        margin-bottom: 100px;
+    }
+
+    .content-of-about-screen>p {
+        font-size: 16px;
+    }
+}

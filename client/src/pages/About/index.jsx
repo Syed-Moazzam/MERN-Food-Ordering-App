@@ -8,7 +8,7 @@ const About = () => {
     return (
         <>
             <section className='hero-section-of-about-screen'>
-                <HeroSection image={assets?.header_img} mainHeading={'About us'} content={"At Tomato, our mission is to redefine healthy eating with meals that are as delightful as they are nutritious. We believe that good food is the foundation of a vibrant life, and that's why we focus on using fresh, high-quality ingredients to craft dishes that satisfy your taste buds and fuel your body. Whether you're looking to maintain a balanced diet or simply enjoy the comfort of wholesome meals, Tomato is here to provide you with flavorful, mindful options that make every meal a moment of joy. Join us in our journey to make healthy eating accessible, enjoyable, and sustainable for everyone."} isBtnVisible={false} className={'hero-section-content-of-about-screen'} />
+                <HeroSection image={assets?.header_img} mainHeading={'About us'} content={"At Tomato, our mission is to redefine healthy eating with meals that are as delightful as they are nutritious. We believe that good food is the foundation of a vibrant life, and that's why we focus on using fresh, high-quality ingredients to craft dishes that satisfy your taste buds and fuel your body. Whether you're looking to maintain a balanced diet or simply enjoy the comfort of wholesome meals, Tomato is here to provide you with flavorful, mindful options that make every meal a moment of joy. Join us in our journey to make healthy eating accessible, enjoyable, and sustainable for everyone."} className={'hero-section-content-of-about-screen'} />
             </section>
 
             <section className='content-of-about-screen'>

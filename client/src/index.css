@@ -52,6 +52,8 @@ a {
   }
 }
 
+
+/* media queries */
 @media (max-width:1050px) {
   .app {
     width: 90%;

@@ -1,0 +1,11 @@
+.hero-section-of-home-screen>div {
+    bottom: 22% !important;
+}
+
+
+/* media queries */
+@media screen and (max-width: 450px) {
+    .hero-section-of-home-screen>div {
+        bottom: 18% !important;
+    }
+}

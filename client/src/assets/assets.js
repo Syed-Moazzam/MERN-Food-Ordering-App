@@ -64,6 +64,9 @@ import phone_icon from './phone_icon.png';
 import email_icon from './email_icon.png';
 import location_icon from './location_icon.png';
 import hamburger_icon from './hamburger_icon.png';
+import home_icon from './home_icon.png';
+import about_icon from './about_icon.png';
+import contact_icon from './contact_icon.png';
 
 export const assets = {
     logo,
@@ -89,7 +92,10 @@ export const assets = {
     phone_icon,
     email_icon,
     location_icon,
-    hamburger_icon
+    hamburger_icon,
+    home_icon,
+    about_icon,
+    contact_icon
 }
 
 export const menu_list = [
