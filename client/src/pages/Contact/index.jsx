@@ -38,6 +38,11 @@ const Contact = () => {
 
             if (response.data.status === 'success') {
                 toast.success(response.data.message);
+                setData({
+                    name: "",
+                    email: "",
+                    message: ""
+                });
             }
             setLoading(false);
         }
@@ -80,7 +85,7 @@ const Contact = () => {
                                 <h2>Get in Touch</h2>
                                 <input type="text" name='name' onChange={onChangeHandler} value={data?.name} placeholder='Name' required />
                                 <input type="email" name='email' onChange={onChangeHandler} value={data?.email} placeholder='Email address' required />
-                                <input type="text" name='message' onChange={onChangeHandler} value={data?.message} placeholder='Message' required />
+                                <textarea name="message" onChange={onChangeHandler} value={data?.message} placeholder='Message' required></textarea>
                                 <button className={['send-message-btn', (!data?.name || !data?.email || !data?.message || loading) && 'disabled-send-message-btn'].join(' ')} type='submit'>{loading ? 'Loading...' : 'Send'}</button>
                             </div>
                         </form>

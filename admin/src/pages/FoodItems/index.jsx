@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react'
-import './List.css'
+import './FoodItems.css'
 import { assets } from '../../assets/assets'
 import axios from 'axios';
 import { toast } from 'react-toastify';
 import { Skeleton } from 'antd';
 
-const List = () => {
+const FoodItems = () => {
   const [list, setList] = useState([]);
   const [showSkeleton, setShowSkeleton] = useState(true);
 
@@ -41,7 +41,7 @@ const List = () => {
   }, []);
 
   return (
-    <div className="list add flex-col">
+    <div className="list food-items-container flex-col">
       {showSkeleton ? <Skeleton active /> :
         <>
           <h3>Food List</h3>
@@ -78,4 +78,4 @@ const List = () => {
   )
 }
 
-export default List
+export default FoodItems;

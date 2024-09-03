@@ -5,7 +5,7 @@ import axios from 'axios';
 import { assets } from '../../assets/assets';
 import { Skeleton } from 'antd';
 
-const Order = () => {
+const Orders = () => {
   const [orders, setOrders] = useState([]);
   const [showSkeleton, setShowSkeleton] = useState(true);
 
@@ -39,7 +39,7 @@ const Order = () => {
   }, [])
 
   return (
-    <div className='order add flex-col'>
+    <div className='order orders-container flex-col'>
       {showSkeleton ? <Skeleton active /> :
         <>
           <h3>All Orders</h3>
@@ -81,4 +81,4 @@ const Order = () => {
   )
 }
 
-export default Order
+export default Orders;

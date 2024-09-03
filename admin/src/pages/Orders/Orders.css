@@ -1,3 +1,10 @@
+.orders-container {
+    width: 70%;
+    margin: 50px 20px 0px 50px;
+    color: #6D6D6D;
+    font-size: 16px;
+}
+
 .order-item {
     display: grid;
     grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr;
@@ -27,7 +34,7 @@
 .order-item select {
     background-color: #ffe8e4;
     border: 1px solid tomato;
-    width: max(10vw, 120px);
+    width: max(10vw, 150px);
     padding: 10px;
     outline: none;
 }
@@ -39,19 +46,41 @@
 
 
 /* media queries */
-@media(max-width: 1000px) {
+@media screen and (max-width: 992px) {
+    .orders-container {
+        margin: 50px auto;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .orders-container {
+        width: 85%;
+    }
+
     .order-item {
-        font-size: 12px;
-        grid-template-columns: 0.5fr 2fr 1fr;
-        padding: 15px 8px;
+        font-size: 12.5px;
+        grid-template-columns: 0.5fr 2fr 1.5fr 1fr 1fr;
     }
 
     .order-item select {
-        padding: 5px;
-        font-size: 12px;
+        width: max(10vw, 140px);
+        font-size: 12.5px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .orders-container {
+        width: 90%;
     }
 
-    .order-item img {
-        width: 40px;
+    .order-item {
+        font-size: 12px;
+        /* grid-template-columns: 0.5fr 2fr 1.5fr 1fr 1fr; */
+    }
+
+    .order-item select {
+        width: max(10vw, 120px);
+        font-size: 12px;
     }
 }

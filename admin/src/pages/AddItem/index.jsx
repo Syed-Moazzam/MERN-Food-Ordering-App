@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-import './Add.css'
+import './AddItem.css'
 import { assets } from '../../assets/assets';
 import axios from 'axios';
 import { toast } from 'react-toastify';
 
-const Add = () => {
+const AddItem = () => {
 
     const [data, setData] = useState({
         name: "",
@@ -46,7 +46,7 @@ const Add = () => {
     }
 
     return (
-        <div className='add'>
+        <div className='add-items-container'>
             <form className='flex-col' onSubmit={onSubmitHandler}>
                 <div className='add-img-upload flex-col'>
                     <p>Upload Image</p>
@@ -88,4 +88,4 @@ const Add = () => {
     )
 }
 
-export default Add
+export default AddItem;

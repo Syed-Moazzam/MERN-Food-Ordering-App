@@ -1,5 +1,5 @@
 .sidebar {
-    width: 18%;
+    width: 260px;
     min-height: 100vh;
     border: 1.5px solid #A9A9A9;
     border-top: 0;
@@ -17,7 +17,7 @@
     align-items: center;
     gap: 12px;
     padding: 12px;
-    border-radius: 3px 0px 0px 3px;
+    border-radius: 4px;
     cursor: pointer;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .sidebar {
-    font-size: max(1vw, 10px);
+    font-size: max(1vw, 14px);
 }
 
 .sidebar-option img {
@@ -39,8 +39,8 @@
 
 
 /* media queries */
-@media (max-width: 900px) {
-    .sidebar-option p {
+@media (max-width: 992px) {
+    .sidebar {
         display: none;
     }
 }

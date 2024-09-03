@@ -6,6 +6,7 @@ import profile_image from './profile_image.png';
 import upload_area from './upload_area.png';
 import parcel_icon from './parcel_icon.png';
 import delete_icon from './delete_icon.png';
+import hamburger_icon from './hamburger_icon.png';
 
 export const assets = {
     logo,
@@ -15,5 +16,6 @@ export const assets = {
     profile_image,
     upload_area,
     parcel_icon,
-    delete_icon
+    delete_icon,
+    hamburger_icon
 }

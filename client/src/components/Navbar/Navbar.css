@@ -36,11 +36,11 @@
 .container-div-of-drawer-links {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 12px;
 }
 
 .container-div-of-drawer-links>.active {
-    background-color: #E8E8E8;
+    background-color: #fff0ed;
 }
 
 .container-div-of-drawer-links>a {
@@ -48,13 +48,17 @@
     align-items: center;
     gap: 12px;
     font-size: 16px;
-    padding: 10px;
+    padding: 12px;
     color: black;
-    border-radius: 5px;
+    border-radius: 4px;
+}
+
+.container-div-of-drawer-links>a:hover {
+    background-color: #fff0ed;
 }
 
 .container-div-of-drawer-links>a img {
-    width: 26px;
+    width: 25px;
 }
 
 .navbar .logo {

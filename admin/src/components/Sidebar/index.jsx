@@ -7,11 +7,11 @@ const Sidebar = () => {
   return (
     <div className='sidebar'>
       <div className="sidebar-options">
-        <NavLink to='/add' className="sidebar-option">
+        <NavLink to='/add-item' className="sidebar-option">
           <img src={assets.add_icon} alt="" />
-          <p>Add Items</p>
+          <p>Add Item</p>
         </NavLink>
-        <NavLink to='/list' className="sidebar-option">
+        <NavLink to='/food-items' className="sidebar-option">
           <img src={assets.food_item_icon} alt="" />
           <p>Food Items</p>
         </NavLink>
@@ -24,4 +24,4 @@ const Sidebar = () => {
   )
 }
 
-export default Sidebar
+export default Sidebar;
