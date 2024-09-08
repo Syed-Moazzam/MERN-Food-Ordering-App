@@ -59,7 +59,7 @@
 .footer hr {
     width: 100%;
     height: 2px;
-    margin: 20px 0px 10px;
+    margin: 10px 0px 5px;
 }
 
 .footer-copyright {
@@ -79,6 +79,6 @@
     }
 
     .footer hr {
-        margin: 5px 0px 12px;
+        margin: 5px 0px 6px;
     }
 }

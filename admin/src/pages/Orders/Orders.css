@@ -35,7 +35,7 @@
     background-color: #ffe8e4;
     border: 1px solid tomato;
     width: max(10vw, 150px);
-    padding: 10px;
+    padding: 10px 2px;
     outline: none;
 }
 
@@ -48,7 +48,7 @@
 /* media queries */
 @media screen and (max-width: 992px) {
     .orders-container {
-        margin: 50px auto;
+        margin: 45px auto;
         width: 80%;
     }
 }
@@ -59,13 +59,14 @@
     }
 
     .order-item {
-        font-size: 12.5px;
-        grid-template-columns: 0.5fr 2fr 1.5fr 1fr 1fr;
+        font-size: 12px;
+        gap: 22px;
     }
 
     .order-item select {
-        width: max(10vw, 140px);
-        font-size: 12.5px;
+        width: max(10vw, 128px);
+        font-size: 12px;
+        padding: 8px 0px;
     }
 }
 
@@ -75,12 +76,24 @@
     }
 
     .order-item {
-        font-size: 12px;
-        /* grid-template-columns: 0.5fr 2fr 1.5fr 1fr 1fr; */
+        padding: 20px 12px;
+        gap: 20px;
+        grid-template-columns: 0.5fr 2.5fr 1.5fr 1fr 0.5fr;
+    }
+
+    .order-item>img {
+        width: 42px;
+    }
+
+    .order-item-name {
+        margin-top: 25px;
     }
 
     .order-item select {
-        width: max(10vw, 120px);
-        font-size: 12px;
+        width: 18px;
+        padding: 0px;
+        border: none;
+        background-color: transparent;
+        text-indent: -9999px;
     }
 }

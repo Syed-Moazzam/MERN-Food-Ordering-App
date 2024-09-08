@@ -53,11 +53,7 @@
 /* media queries */
 @media screen and (max-width: 992px) {
     .add-items-container {
-        margin: 50px auto;
-    }
-
-    .add-img-upload img {
-        width: 125px;
+        margin: 45px auto;
     }
 
     .add-product-name,
@@ -89,5 +85,9 @@
     .add-category-price {
         flex-direction: column;
         gap: 20px;
+    }
+
+    .add-img-upload img {
+        width: 115px;
     }
 }

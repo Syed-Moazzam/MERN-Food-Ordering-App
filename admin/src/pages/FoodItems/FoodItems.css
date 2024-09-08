@@ -44,7 +44,7 @@
 /* media queries */
 @media screen and (max-width: 992px) {
     .food-items-container {
-        margin: 50px auto;
+        margin: 45px auto;
     }
 }
 
