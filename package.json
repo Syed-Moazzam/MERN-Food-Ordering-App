@@ -1,0 +1,22 @@
+{
+  "name": "food-ordering-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cd client && npm install && npm run build && cd admin && npm install && npm run build",
+    "start": "cd server && npm install && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Syed-Moazzam/MERN-Food-Ordering-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Syed-Moazzam/MERN-Food-Ordering-App/issues"
+  },
+  "homepage": "https://github.com/Syed-Moazzam/MERN-Food-Ordering-App#readme",
+  "keywords": [],
+  "description": ""
+}
