@@ -9,7 +9,7 @@ const FoodItems = () => {
   const [list, setList] = useState([]);
   const [showSkeleton, setShowSkeleton] = useState(true);
 
-  const url = import.meta.env.MODE === 'development' ? import.meta.env.VITE_API_DEV_BASE_URL : import.meta.env.VITE_API_PROD_BASE_URL;
+  const url = import.meta.env.MODE === 'development' ? 'http://localhost:4000' : 'https://mern-food-ordering-app-s1vs.onrender.com';
 
   const fetchList = async () => {
     const response = await axios.get('/api/food/list');
