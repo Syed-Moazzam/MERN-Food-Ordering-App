@@ -9,7 +9,7 @@ const FoodItems = () => {
   const [list, setList] = useState([]);
   const [showSkeleton, setShowSkeleton] = useState(true);
 
-  const url = 'http://localhost:4000';
+  const url = import.meta.env.VITE_API_BASE_URL;
 
   const fetchList = async () => {
     const response = await axios.get('/api/food/list');

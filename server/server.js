@@ -47,8 +47,9 @@ app.use("/api/cart", cartRouter);
 app.use("/api/order", orderRouter);
 app.use('/api', emailRouter);
 
-app.get("/", (req, res) => {
-  res.send("API Working");
+// Redirect root to client
+app.get('/', (req, res) => {
+  res.redirect('/client');
 });
 
 app.listen(port, () => console.log(`Server started on http://localhost:${port}`));
